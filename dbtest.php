@@ -3,8 +3,8 @@
         $port = '3306';
         $user = 'root';
         $pw = '';
-        $dbName = 'dog';
-        $mysqli = new mysqli($host, $user, $pw, $dbName);
+        $dbName = 'mariadb';
+        $mysqli = new mysqli($host, $port, $user, $pw, $dbName);
 
         if($mysqli){
                 echo "MYSQL 접속 성공";
