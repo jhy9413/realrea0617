@@ -4,9 +4,9 @@
         $user = 'root';
         $pw = '';
         $dbName = 'mariadb';
-        $mysqli = new mysqli($host, $port, $user, $pw, $dbName);
+        $conn = new mysqli($host, $port, $user, $pw, $dbName);
 
-        if($mysqli){
+        if($conn){
                 echo "MYSQL 접속 성공";
         }else{
                 echo "MYSQL 접속 실패";
