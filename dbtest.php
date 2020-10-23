@@ -1,5 +1,6 @@
 <?php
         $host = '172.30.61.113';//db서버 ip
+        $port = '3306';
         $user = 'root';
         $pw = '';
         $dbName = 'dog';
